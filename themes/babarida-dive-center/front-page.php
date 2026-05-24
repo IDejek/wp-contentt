@@ -186,7 +186,7 @@ get_header();
             <span class="bbr-section-label"><?php esc_html_e('Find', 'babarida-dive'); ?></span>
             <h2 class="bbr-section-title"><?php esc_html_e('Find Your Adventure', 'babarida-dive'); ?></h2>
         </div>
-        <div class="bbr-search-bar bbr-reveal">
+        <form id="bbr-search-form" class="bbr-search-bar bbr-reveal">
             <div class="bbr-search-field">
                 <label class="bbr-form-label"><?php esc_html_e('Destination', 'babarida-dive'); ?></label>
                 <select name="destination" class="bbr-form-select">
@@ -236,8 +236,7 @@ get_header();
                     <?php esc_html_e('Search', 'babarida-dive'); ?>
                 </button>
             </div>
-        </div>
-        <form id="bbr-search-form" style="display:none"></form>
+        </form>
         <div id="bbr-search-results" style="margin-top:2rem"></div>
     </div>
 </section>
