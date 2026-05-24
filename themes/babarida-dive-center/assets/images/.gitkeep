@@ -1,0 +1,23 @@
+# This directory holds theme images
+# Add the following files for the theme to display properly:
+#
+# hero-fallback.jpg        — 1920x1080 hero background
+# hero-video.mp4           — Optional hero video
+# welcome-fallback.jpg     — Welcome section image
+# dest-bunaken.jpg         — Bunaken destination card
+# dest-siladen.jpg         — Siladen destination card
+# dest-bangka.jpg          — Bangka destination card
+# dest-lembeh.jpg          — Lembeh destination card
+# dest-default.jpg         — Fallback destination card
+# boat-default.jpg         — Liveaboard card fallback
+# boat-hero.jpg            — Single liveaboard hero fallback
+# trip-default.jpg         — Trip card fallback
+# hotel-default.jpg        — Hotel card fallback
+# hotel-hero.jpg           — Single hotel hero fallback
+# post-default.jpg         — Blog post hero fallback
+# page-default.jpg         — Page hero fallback
+# archive-default.jpg      — Archive hero fallback
+# logo.png                 — Site logo (400x100)
+# icon-192.png             — PWA icon 192x192
+# icon-512.png             — PWA icon 512x512
+# og-default.jpg           — Default Open Graph image (1200x630)
