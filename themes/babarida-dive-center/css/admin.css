@@ -1,0 +1,21 @@
+/* Babarida Dive Center — Admin Styles */
+.bbr-meta-fields label{display:block;font-weight:600;margin-bottom:4px;font-size:13px;color:#374151}
+.bbr-meta-fields textarea{resize:vertical;min-height:80px}
+.bbr-meta-fields input:focus,.bbr-meta-fields textarea:focus{border-color:#0077B6;box-shadow:0 0 0 3px rgba(0,119,182,0.1)}
+
+/* Status badges in admin list */
+.bbr-admin-status{display:inline-block;padding:2px 10px;border-radius:20px;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.03em}
+.bbr-admin-status.pending{background:#FEF3C7;color:#92400E}
+.bbr-admin-status.confirmed{background:#DBEAFE;color:#1E40AF}
+.bbr-admin-status.paid{background:#D1FAE5;color:#065F46}
+.bbr-admin-status.checked-in{background:#EDE9FE;color:#5B21B6}
+.bbr-admin-status.completed{background:#A7F3D0;color:#064E3B}
+.bbr-admin-status.cancelled{background:#FEE2E2;color:#991B1B}
+
+/* Booking post list highlight */
+.post-type-booking .wp-list-table .row-pending{background:#FFFBEB !important}
+.post-type-booking .wp-list-table .row-cancelled{background:#FEF2F2 !important}
+.post-type-booking .wp-list-table .row-completed{background:#ECFDF5 !important}
+
+/* CPT menu icons color */
+#menu-posts-destination .wp-menu-image img,#menu-posts-trip .wp-menu-image img{opacity:0}
