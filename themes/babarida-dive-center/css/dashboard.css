@@ -1,0 +1,27 @@
+/* Babarida Dive Center — Dashboard Template Styles */
+.bbr-dash{min-height:100vh;background:#f9fafb}
+.bbr-dash-sidebar-toggle{display:none;position:fixed;top:1rem;left:1rem;z-index:1001;width:40px;height:40px;border-radius:10px;background:#023E8A;color:#fff;font-size:1.2rem;align-items:center;justify-content:center;cursor:pointer;border:none;box-shadow:0 2px 8px rgba(2,62,138,0.3)}
+@media(max-width:1024px){.bbr-dash-sidebar-toggle{display:flex}}
+
+/* Notification bell */
+.bbr-dash-notif{position:relative;cursor:pointer}
+.bbr-dash-notif-badge{position:absolute;top:-4px;right:-4px;width:16px;height:16px;border-radius:50%;background:#EF4444;color:#fff;font-size:9px;display:flex;align-items:center;justify-content:center;font-weight:700}
+.bbr-dash-notif-dropdown{position:absolute;top:100%;right:0;width:320px;max-height:400px;overflow-y:auto;background:#fff;border-radius:12px;box-shadow:0 10px 40px rgba(0,0,0,0.15);display:none;z-index:100}
+.bbr-dash-notif-dropdown.open{display:block}
+.bbr-dash-notif-item{padding:.75rem 1rem;border-bottom:1px solid #f3f4f6;cursor:pointer;transition:background .15s}
+.bbr-dash-notif-item:hover{background:#f9fafb}
+.bbr-dash-notif-item.unread{background:#eff6ff}
+.bbr-dash-notif-item-title{font-size:.82rem;font-weight:600;color:#1f2937}
+.bbr-dash-notif-item-time{font-size:.7rem;color:#9ca3af;margin-top:2px}
+
+/* Chat panel */
+.bbr-dash-chat{position:fixed;bottom:1.5rem;right:1.5rem;z-index:999}
+.bbr-dash-chat-panel{width:350px;height:450px;background:#fff;border-radius:16px;box-shadow:0 10px 40px rgba(0,0,0,0.15);display:none;flex-direction:column;overflow:hidden}
+.bbr-dash-chat-panel.open{display:flex}
+
+/* Responsive dashboard grid */
+@media(max-width:768px){
+  .bbr-dash-main{padding:1rem}
+  .bbr-dash-stats{grid-template-columns:1fr !important}
+  .bbr-dash-card{border-radius:12px}
+}
