@@ -55,6 +55,7 @@ if (post_password_required()) {
 </div>
 
 <?php
+if (!function_exists('bbr_comment_callback')) :
 function bbr_comment_callback($comment, $args, $depth) {
     $tag = ('div' === $args['style']) ? 'div' : 'li';
     ?>
@@ -74,3 +75,5 @@ function bbr_comment_callback($comment, $args, $depth) {
     </<?php echo $tag; ?>>
     <?php
 }
+endif;
+?>
